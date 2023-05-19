@@ -613,6 +613,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
+  margin-top: 10px;
   width: 26%;
 }
 .footer p {
