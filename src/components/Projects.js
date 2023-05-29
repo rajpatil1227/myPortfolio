@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/news.png";
+import projImg1 from "../assets/img/chat.png";
 import projImg2 from "../assets/img/twit.png";
 import projImg3 from "../assets/img/imdb.png";
 import cart from "../assets/img/cart.png";
@@ -15,10 +15,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "News App",
-      description: "A News App using ReactJs",
+      title: "Chat Clone",
+      description: "A Chat Clone App Using ReactJs and Firebase ",
       imgUrl: projImg1,
-      link : "/project",
+      link : "https://chatclone27.netlify.app/",
     },
     {
       title: "Tweet Quotes",
@@ -138,7 +138,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }
